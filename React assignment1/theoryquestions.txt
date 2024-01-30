@@ -1,0 +1,8 @@
+3.  What are keys in React JS? How keys are involving  in array processing?    
+    In React.js, keys are special attributes that are used to uniquely identify and differentiate elements in a list or array of elements. When you render a list of items in React, each item        should have a unique key assigned to it. Keys help React efficiently update and re-render lists of elements by providing a stable identity to each element.
+
+
+
+
+4.   How to display images in React JS?
+     In React.js, you can display images using the <img> element, just like in regular HTML. You need to provide the source (URL) of the image as a prop to the <img> tag.

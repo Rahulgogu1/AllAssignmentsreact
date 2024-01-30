@@ -1,0 +1,33 @@
+import React from 'react';
+
+const DoctorsDetailsTable = ({ doctors }) => {
+  return (
+    <div>
+      <h2>Doctors Details</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Doctor ID</th>
+            <th>Doctor Name</th>
+            <th>Designation</th>
+            <th>Experience</th>
+            <th>Contact Number</th>
+          </tr>
+        </thead>
+        <tbody>
+          {doctors.map((doctor) => (
+            <tr key={doctor.doctorId}>
+              <td>{doctor.doctorId}</td>
+              <td>{doctor.doctorName}</td>
+              <td>{doctor.designation}</td>
+              <td>{doctor.experience}</td>
+              <td>{doctor.contactNumber}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+};
+
+export default DoctorsDetailsTable;
