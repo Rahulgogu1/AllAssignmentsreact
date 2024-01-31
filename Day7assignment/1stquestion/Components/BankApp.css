@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+    background-color: #e1de2c;
+    color: #130c0c;
+    text-align: center;
+    }
+    
+header {
+    width:100%;
+    padding: 15px;
+    background-color: #D8D8BF;
+    color: #060807;
+    font-size: 40px;
+}
